@@ -9,7 +9,7 @@ export default function Feature() {
         <span className="text-center text-md font-light">Key Highlights of Our Extension</span>
       </div>
       <div className="flex justify-between  gap-4">
-      <div className="flex justify-between flex-col md:fkex-row  lq gap-4">
+      <div className="flex justify-between flex-col md:flex-row  lq gap-4">
         <ul className="flex flex-col items-start justify-center">
           <li className="text-center">
                       
