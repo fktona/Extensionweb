@@ -1,4 +1,7 @@
 import img from "../assets/assets/feature_img.svg"
+import kite from "../assets/assets/circle.svg"
+import share from "../assets/assets/share.svg"
+import revisit from "../assets/assets/revisit.svg"
 
 export default function Feature() {
   return (
@@ -11,21 +14,21 @@ export default function Feature() {
       <div className="flex justify-between flex-col gap-8">
         <ul className="flex flex-col items-start justify-center">
           <li className="text-center">
-            <img src="" alt="" />
+            <img src={kite} alt="" />
             <p className="text-xl font-semibold">Simple Screen Recording</p>
             <span className="text-center font-light">Effortless screen recording for everyone. Record with ease, no tech expertise required</span>
           </li>
         </ul>
         <ul className="flex flex-col items-start justify-center">
           <li className="text-center">
-            <img src="" alt="" />
+            <img src={share} alt="" />
             <p className="text-xl font-semibold">Easy-to-Share Url</p>
             <span className="text-center font-light">Access and review your past content effortlessly. Your recordings, always at your fingertips</span>
           </li>
         </ul>
         <ul className="flex flex-col items-start justify-center">
           <li className="text-center">
-            <img src="" alt="" />
+            <img src={revisit} alt="" />
             <p className="text-xl font-semibold">Revisit Recordings</p>
             <span className="text-center font-light">Access and review your past content effortlessly. Your recordings, always at your fingertips</span>
           </li>
@@ -33,6 +36,7 @@ export default function Feature() {
       </div>
         <img
           src={img}
+          
           alt="" className="md:max-w-[40%] " />
       </div>
     </div>
