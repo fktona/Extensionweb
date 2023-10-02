@@ -5,26 +5,26 @@ export default function Feature() {
   return (
     <div className="relative  items-center py-[10rem]  flex gap-8 w-full justify-between p-6 flex-wrap bg-r-pri text-white ">
     
-      <div className="flex md:flex-row flex-col items-center justify-between w-full md:items-start md:py--6 flex-wrap gap-6">
+      <div className="flex md:flex-row flex-col items-center justify-between w-full gap-8 md:items-start md:py-6 flex-wrap ">
               <h4 className="text-xl flex  gap-4 justify-center items-center font-bold ">    <img src={logo} alt="" />HelpmMeOut</h4>
           <ul className="flex flex-col items-center gap-2 text-centerr">
           <h4 className="font-bold ">About</h4>
-            <li className="font-semibols">Contact Us</li>
-            <li className="font-semibols">Privacy Policy</li>
-            <li className="font-semibols">cvggggg</li>
+            <li className="font-semibold">Contact Us</li>
+            <li className="font-semibold">Privacy Policy</li>
+            <li className="font-semibold">cvggggg</li>
           </ul>
         
-          <ul className="flex flex-col gap-2 items-center t3xt-centerter t
+          <ul className="flex flex-col gap-2 items-center t3xt-centerter font-bold
           ">Menu
-            <li className="font-semibols">Home</li>
-            <li className="font-semibols">Converter</li>
-            <li className="font-semibols">How it Works</li>
+            <li className="font-semibold">Home</li>
+            <li className="font-semibold">Converter</li>
+            <li className="font-semibold">How it Works</li>
           </ul>
         
-          <ul className="flex flex-col items-center gap-2 t3xt-centerter">Screen Record
-            <li className="font-semibols">Browser Window</li>
-            <li className="font-semibols">Desktop</li>
-            <li className="font-semibols">Application</li>
+          <ul className="flex flex-col items-center gap-2 t3xt-centerter font-bold">Screen Record
+            <li className="font-semibold">Browser Window</li>
+            <li className="font-semibold">Desktop</li>
+            <li className="font-semibold">Application</li>
           </ul>
         
       </div>
