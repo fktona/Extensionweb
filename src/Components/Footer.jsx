@@ -11,7 +11,7 @@ export default function Feature() {
           <h4 className="font-bold ">About</h4>
             <li className="font-semibold">Contact Us</li>
             <li className="font-semibold">Privacy Policy</li>
-            <li className="font-semibold">cvggggg</li>
+            
           </ul>
         
           <ul className="flex flex-col gap-2 items-center t3xt-centerter font-bold

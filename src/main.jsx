@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Login from './Pages/Login'
 import Homepage from "./Pages/Homepage";
+import Details from "./Pages/Details";
 import './index.css'
 import {
   createHashRouter,
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Homepage />,
+      },
+      {
+        path: "details",
+        element: <Details/>,
       }]
     
   },

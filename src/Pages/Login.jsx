@@ -2,7 +2,7 @@ import React from "react"
 import logo from "../assets/assets/logo.svg"
 import fb from "../assets/assets/fb.svg"
 import google from "../assets/assets/google.svg"
-
+import { NavLink } from "react-router-dom";
 const Login = () => {
   return (
     <section className="flex justify-center items-center">
@@ -56,7 +56,8 @@ const Login = () => {
               className="border-[1px] px-2 border-black w-full py-3 rounded-xl"
             />
           </div>
-          <button onClick={(e) => e.preventDefault()}className="w-full py-3 rounded-lg bg-r-pri text-white">Sign Up</button>
+          <NavLink to={"/details"}>
+          <button className="w-full py-3 mt-8 rounded-lg bg-r-pri text-white">Sign Up</button></NavLink>
         </form>
       </div>
     </section>
