@@ -1,4 +1,5 @@
 import logo from "../assets/assets/logo.svg"
+import { NavLink} from "react-router-dom";
 
 export default function () {
   return(
@@ -10,7 +11,7 @@ export default function () {
       <span>Features</span>
       <span>How it Works</span>
       </div>
-      <div>Get Started</div>
+      <NavLink to={'/register'}>Get Started</NavLink>
     </div>
     
     )

@@ -3,9 +3,9 @@ import logo from "../assets/assets/logo-white.svg"
 
 export default function Feature() {
   return (
-    <div className="relative  items-center py-[10rem]  flex gap-8 w-full justify-between p-6 flex-wrap bg-r-pri text-white ">
+    <div className="relative  py-[8rem]  flex gap-8 w-full j p-6 flex-wrap bg-r-pri text-white ">
     
-      <div className="flex md:flex-row flex-col items-center justify-between w-full gap-8 md:items-start md:py-6 flex-wrap ">
+      <div className="flex md:flex-row flex-col items-center md:justify-between items-start w-full gap-8 md:items-start md:py-6 flex-wrap ">
               <h4 className="text-xl flex  gap-4 justify-center items-center font-bold ">    <img src={logo} alt="" />HelpmMeOut</h4>
           <ul className="flex flex-col items-center gap-2 text-centerr">
           <h4 className="font-bold ">About</h4>
@@ -32,32 +32,3 @@ export default function Feature() {
   );
 }
 
-//     id: 1,
-//     title: "Menu",
-//     links: [
-//       { id: 1, linkName: "Home" },
-//       { id: 2, linkName: "Converter" },
-//       { id: 3, linkName: "How It Works" },
-//     ],
-//   },
-
-//   {
-//     id: 2,
-//     title: "About us",
-//     links: [
-//       { id: 1, linkName: "About" },
-//       { id: 2, linkName: "Contact Us" },
-//       { id: 3, linkName: "Privacy Policy" },
-//     ],
-//   },
-
-//   {
-//     id: 3,
-//     title: "Screen Record",
-//     links: [
-//       { id: 1, linkName: "Browser Window" },
-//       { id: 2, linkName: "Desktop" },
-//       { id: 3, linkName: "Application" },
-//     ],
-//   },
-// ];
